@@ -22,3 +22,19 @@ const junseobInfo = {
 };
 
 console.log(junseobInfo.pet[1].name);
+
+//function
+function sayHello(a, b) {
+  console.log(a, b);
+}
+
+sayHello("junseob", "hello!");
+
+// function_2
+function sayHello2(name, age) {
+  return `Hello ${name} you are ${age} years old`;
+}
+
+const greetNicolas = sayHello2("JunSeob", 15);
+
+console.log(greetNicolas);
